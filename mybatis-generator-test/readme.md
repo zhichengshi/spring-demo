@@ -1,5 +1,5 @@
 ####功能描述
-这个模块主要是一个使用mybatis generator根据数据库中的表生成对应的CRUD的sql语句。这个项目的核心有两个生成器的配置文件generatorConfig.xml以及生成器Generator.java，还有一个稍微不那么重要，生成model的注释生成器CommentGenerator.java
+这个模块主要是一个使用mybatis generator根据数据库中的表生成对应的CRUD的sql语句。这个项目的核心有两个，生成器的配置文件generatorConfig.xml以及生成器Generator.java，还有一个稍微不那么重要，生成model的注释生成器CommentGenerator.java
 
 generatorConfig.xml
 ```xml
