@@ -7,22 +7,35 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-generator" />
-        <module name="event-listener" />
-        <module name="component-register" />
-        <module name="transaction-management" />
-        <module name="mybatis-generator-test" />
-        <module name="swagger" />
+        <module name="Eureka-Provider" />
+        <module name="Eureka-Server" />
+        <module name="Eureka-server" />
+        <module name="Eureka-Consumer" />
+        <module name="Provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="component-register" target="1.8" />
       <module name="componentRegister" target="1.8" />
+      <module name="Eureka-server" target="1.8" />
+      <module name="event-listener" target="1.8" />
       <module name="mybatis-generator" target="1.8" />
+      <module name="mybatis-generator-test" target="1.8" />
+      <module name="Provider" target="1.8" />
+      <module name="swagger" target="1.8" />
+      <module name="transaction-management" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Eureka-Consumer" options="-parameters" />
+      <module name="Eureka-Provider" options="-parameters" />
+      <module name="Eureka-Server" options="-parameters" />
+      <module name="Eureka-server" options="-parameters" />
+      <module name="Provider" options="-parameters" />
       <module name="component-register" options="-parameters" />
       <module name="componentRegister" options="-parameters" />
+      <module name="eureka" options="-parameters" />
       <module name="event-listener" options="-parameters" />
       <module name="mybatis-generator" options="-parameters" />
       <module name="mybatis-generator-test" options="-parameters" />

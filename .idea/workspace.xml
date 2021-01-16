@@ -3,9 +3,40 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f99243f2-8648-4a77-b9ba-41960f2d34d0" name="Default Changelist" comment="springboot demo">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Consumer/src/main/java/com/cheng/ComsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Consumer/src/main/java/com/cheng/controller/UseHelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Provider/src/main/java/com/cheng/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Provider/src/main/java/com/cheng/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Server/src/main/java/com/cheng/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/Eureka-Server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +78,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-generator-test/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -71,7 +102,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Generator">
+  <component name="RunManager" selected="Spring Boot.ComsumerApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cheng.mbg.Generator" />
       <module name="mybatis-generator" />
@@ -85,15 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,15 +140,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="component-register" />
+    <configuration name="ComsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Eureka-Consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cheng.ComsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Eureka-Server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="com.cheng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cheng.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Eureka-Provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cheng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cheng.ProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,26 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="transaction-management" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cheng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cheng.TransactionApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Application.Generator" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.SwaggerApplication" />
-        <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Spring Boot.TransactionApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +208,7 @@
       <workItem from="1609034931263" duration="2491000" />
       <workItem from="1609910547616" duration="4939000" />
       <workItem from="1609923284175" duration="9483000" />
+      <workItem from="1610802650388" duration="7571000" />
     </task>
     <task id="LOCAL-00001" summary="springboot demo">
       <created>1609934530648</created>
@@ -185,6 +222,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springboot demo" />
@@ -219,38 +267,38 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1018" y="471" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609035578020" />
-    <state width="2516" height="464" key="GridCell.Tab.0.bottom" timestamp="1609933647754">
+    <state width="2516" height="483" key="GridCell.Tab.0.bottom" timestamp="1610808985714">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2516" height="464" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609933647754" />
-    <state width="2516" height="464" key="GridCell.Tab.0.center" timestamp="1609933647754">
+    <state width="2516" height="483" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1610808985714" />
+    <state width="2516" height="483" key="GridCell.Tab.0.center" timestamp="1610808985713">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2516" height="464" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609933647754" />
-    <state width="2516" height="464" key="GridCell.Tab.0.left" timestamp="1609933647753">
+    <state width="2516" height="483" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1610808985713" />
+    <state width="2516" height="483" key="GridCell.Tab.0.left" timestamp="1610808985713">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2516" height="464" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609933647753" />
-    <state width="2516" height="464" key="GridCell.Tab.0.right" timestamp="1609933647754">
+    <state width="2516" height="483" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1610808985713" />
+    <state width="2516" height="483" key="GridCell.Tab.0.right" timestamp="1610808985714">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2516" height="464" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609933647754" />
-    <state width="2516" height="602" key="GridCell.Tab.1.bottom" timestamp="1609924160519">
+    <state width="2516" height="483" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1610808985714" />
+    <state width="2516" height="483" key="GridCell.Tab.1.bottom" timestamp="1610808985715">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2516" height="602" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609924160519" />
-    <state width="2516" height="602" key="GridCell.Tab.1.center" timestamp="1609924160518">
+    <state width="2516" height="483" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1610808985715" />
+    <state width="2516" height="483" key="GridCell.Tab.1.center" timestamp="1610808985714">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2516" height="602" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609924160518" />
-    <state width="2516" height="602" key="GridCell.Tab.1.left" timestamp="1609924160518">
+    <state width="2516" height="483" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1610808985714" />
+    <state width="2516" height="483" key="GridCell.Tab.1.left" timestamp="1610808985714">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2516" height="602" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609924160518" />
-    <state width="2516" height="602" key="GridCell.Tab.1.right" timestamp="1609924160519">
+    <state width="2516" height="483" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1610808985714" />
+    <state width="2516" height="483" key="GridCell.Tab.1.right" timestamp="1610808985715">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2516" height="602" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609924160519" />
+    <state width="2516" height="483" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1610808985715" />
     <state width="2516" height="514" key="GridCell.Tab.2.bottom" timestamp="1608966335206">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -287,17 +335,17 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1059" y="498" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609035123099" />
-    <state x="686" y="294" key="new project wizard" timestamp="1609923824589">
+    <state x="686" y="294" key="new project wizard" timestamp="1610807071867">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="686" y="294" key="new project wizard/0.0.2560.1440@0.0.2560.1440" timestamp="1609923824589" />
+    <state x="686" y="294" key="new project wizard/0.0.2560.1440@0.0.2560.1440" timestamp="1610807071867" />
     <state x="945" y="345" width="670" height="675" key="run.anything.popup" timestamp="1608888779388">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="945" y="345" width="670" height="675" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1608888779388" />
-    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1609917893055">
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1610809911081">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1609917893055" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1610809911081" />
   </component>
 </project>
