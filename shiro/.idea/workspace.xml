@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbe908e8-16cc-44a4-a1e6-d4c304f58b2e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="/Applications/IntelliJ\ IDEA.app/Contents/plugins/maven/lib/maven3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oeegzTr6FenLQf6LD18Mm0V0n6" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templetes" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templete" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbe908e8-16cc-44a4-a1e6-d4c304f58b2e" name="Default Changelist" comment="" />
+      <created>1613651599190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613651599190</updated>
+      <workItem from="1613651600351" duration="16368000" />
+      <workItem from="1613729309056" duration="5004000" />
+      <workItem from="1613745613283" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613653227419">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1613653227419" />
+    <state x="970" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613651742896">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="970" y="517" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1613651742896" />
+    <state x="1093" y="427" key="#com.intellij.ide.util.MemberChooser" timestamp="1613654537815">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1093" y="427" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1613654537815" />
+    <state width="2516" height="288" key="GridCell.Tab.0.bottom" timestamp="1613745570479">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="288" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1613745570479" />
+    <state width="2516" height="419" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1613722829123" />
+    <state width="2516" height="288" key="GridCell.Tab.0.center" timestamp="1613745570478">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="288" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1613745570478" />
+    <state width="2516" height="419" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1613722829123" />
+    <state width="2516" height="288" key="GridCell.Tab.0.left" timestamp="1613745570478">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="288" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1613745570478" />
+    <state width="2516" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.25.2560.1330" timestamp="1613658929318" />
+    <state width="2516" height="419" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1613722829122" />
+    <state width="2516" height="288" key="GridCell.Tab.0.right" timestamp="1613745570478">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="288" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1613745570478" />
+    <state width="2516" height="419" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1613722829123" />
+    <state width="2516" height="288" key="GridCell.Tab.1.bottom" timestamp="1613745570480">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="288" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1613745570480" />
+    <state width="2516" height="419" key="GridCell.Tab.1.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1613722829124" />
+    <state width="2516" height="288" key="GridCell.Tab.1.center" timestamp="1613745570479">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="288" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1613745570479" />
+    <state width="2516" height="419" key="GridCell.Tab.1.center/0.25.2560.1330@0.25.2560.1330" timestamp="1613722829124" />
+    <state width="2516" height="288" key="GridCell.Tab.1.left" timestamp="1613745570479">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="288" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1613745570479" />
+    <state width="2516" height="419" key="GridCell.Tab.1.left/0.25.2560.1330@0.25.2560.1330" timestamp="1613722829124" />
+    <state width="2516" height="288" key="GridCell.Tab.1.right" timestamp="1613745570480">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="288" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1613745570480" />
+    <state width="2516" height="419" key="GridCell.Tab.1.right/0.25.2560.1330@0.25.2560.1330" timestamp="1613722829124" />
+    <state width="2516" height="514" key="GridCell.Tab.2.bottom" timestamp="1613729291609">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="514" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1613729291609" />
+    <state width="2516" height="514" key="GridCell.Tab.2.center" timestamp="1613729291609">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="514" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1613729291609" />
+    <state width="2516" height="514" key="GridCell.Tab.2.left" timestamp="1613729291608">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="514" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1613729291608" />
+    <state width="2516" height="514" key="GridCell.Tab.2.right" timestamp="1613729291609">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="514" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1613729291609" />
+    <state x="1110" y="469" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1613653886925">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1110" y="469" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1440@0.0.2560.1440" timestamp="1613653886925" />
+    <state x="686" y="294" key="new project wizard" timestamp="1613729052762">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="686" y="294" key="new project wizard/0.0.2560.1440@0.0.2560.1440" timestamp="1613729052762" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1613714572213">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1613714572213" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页</title>
+</head>
+
+
+
+<body>
+显示错误信息:
+<form action="" method="post" th:action="@{/login}">
+    <p>账号：<input type="text" name="username" value="wmyskxz"/></p>
+    <p>密码：<input type="text" name="password" value="123"/></p>
+    <p><input type="submit" value="登录"/></p>
+</form>
+</body>
+</html>

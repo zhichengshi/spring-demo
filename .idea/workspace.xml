@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f99243f2-8648-4a77-b9ba-41960f2d34d0" name="Default Changelist" comment="springboot demo">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/Eureka-Server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/Eureka-Server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +74,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cheng.mbg" />
@@ -89,7 +94,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ComsumerApplication">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cheng.mbg.Generator" />
       <module name="mybatis-generator" />
@@ -103,13 +108,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,6 +130,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cheng.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,26 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="swagger" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SwaggerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Spring Boot.ProviderApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Application.Generator" />
         <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Spring Boot.SwaggerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +203,7 @@
       <workItem from="1609910547616" duration="4939000" />
       <workItem from="1609923284175" duration="9483000" />
       <workItem from="1610802650388" duration="7864000" />
+      <workItem from="1613745678016" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="springboot demo">
       <created>1609934530648</created>
@@ -220,6 +228,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springboot demo" />

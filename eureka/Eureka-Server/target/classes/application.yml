@@ -7,7 +7,7 @@ spring:
 
 eureka:
   client:
-    register-with-eureka: true
-    fetch-registry: false
+    register-with-eureka: true #自己作为客户端进行注册
+    fetch-registry: false # 禁止自己拉去注册表
     service-url:
       defaultZone: http://localhost:8001/eureka

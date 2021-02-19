@@ -22,5 +22,6 @@
 <!--        <module>swagger</module>-->
 <!--        <module>mybatis-generator-test</module>-->
         <module>eureka</module>
+        <module>shiro</module>
     </modules>
 </project>
