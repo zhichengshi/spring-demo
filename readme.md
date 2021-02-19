@@ -2,3 +2,4 @@
 + [事件的发布与监听](https://zhichengshi.github.io/2020/12/25/事件发布与监听/)
 + [mybatis generator](https://github.com/zhichengshi/spring-demo/blob/master/mybatis-generator-test/readme.md)
 + [eureka provider consumer](https://github.com/zhichengshi/spring-demo/blob/master/eureka/readme.md)
++ [shiro](https://zhuanlan.zhihu.com/p/54176956)
